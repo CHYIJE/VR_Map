@@ -138,7 +138,10 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
+  - {fileID: 0}
   - {fileID: 11400000, guid: 68edf9dc948cc4449a5f07007a0a6344, type: 2}
+  - {fileID: 11400000, guid: 3df9215ae884d604283e1ba8b3a22841, type: 2}
+  - {fileID: 7944901837871066458, guid: 50a42b1b4d56ce94d8ff99b6ebb2d52d, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -160,6 +163,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.VR_MAP
+    Standalone: com.DefaultCompany.VR-MAP
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -167,7 +171,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 29
+  AndroidMinSdkVersion: 32
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 

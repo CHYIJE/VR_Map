@@ -18,19 +18,14 @@ public class LoginManager3 : MonoBehaviour
 
     public void LoginBtn()
     {
-        // StartCoroutine(Login(usernameInput.text, passwordInput.text));
-    }
-
-    void Start()
-    {
-        usernameInput.text = "qwer1234";
-        passwordInput.text = "12341234";
         StartCoroutine(Login(usernameInput.text, passwordInput.text));
     }
 
+    
+
     IEnumerator Login(string idInput, string pwInput)
     {
-        // string pwInput = "12341234";
+        
 
         LoginData loginData = new LoginData { userId = idInput, userPassword = pwInput };
         string jsonData = JsonUtility.ToJson(loginData);
